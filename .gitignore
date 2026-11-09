@@ -1,0 +1,33 @@
+# secrets — never commit
+.env
+*.env
+!.env.example
+
+# python
+backend/.venv/
+__pycache__/
+*.pyc
+backend/.scratch/
+
+# local data (re-seeded automatically on start)
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+
+# node / builds
+node_modules/
+frontend/dist/
+frontend/dist-single/
+
+# presentation scratch + third-party reference deck
+presentation/shots/
+presentation/qa/
+presentation/ref/
+presentation/template/qa/
+
+# editor / local tooling
+.claude/
+.vscode/
+*.log
+Thumbs.db
+.DS_Store

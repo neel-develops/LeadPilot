@@ -1,0 +1,12 @@
+**/node_modules
+**/.venv
+**/__pycache__
+backend/.env
+backend/*.db*
+backend/.scratch
+frontend/dist
+frontend/dist-single
+presentation
+LeadPilot.html
+.claude
+.git

@@ -150,3 +150,8 @@
 /* contrast tweaks for light */
 [data-theme='light'] .tone-blue { --c: #0369a1; --cs: rgba(0, 186, 242, 0.14); }
 [data-theme='light'] .tone-slate { --c: #3b4f73; --cs: rgba(0, 46, 110, 0.08); }
+
+/* incoming AI call card: Paytm navy with white text */
+[data-theme='light'] .incoming { background: radial-gradient(520px 320px at 50% 0%, #00418f 0%, #002e6e 70%); border-color: rgba(0, 186, 242, 0.45); color: #fff; box-shadow: 0 40px 100px -25px rgba(0, 46, 110, 0.7); }
+[data-theme='light'] .incoming .muted, [data-theme='light'] .incoming .dim { color: rgba(255, 255, 255, 0.78); }
+[data-theme='light'] .incoming .ring-ava { background: linear-gradient(135deg, #00baf2, #0a5fb4); }
